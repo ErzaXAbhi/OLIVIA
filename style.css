@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./bg1.jpg) center no-repeat;
+  background-size: cover;
+  height: 131dvh;
+  border: 15px solid #000;
+}
+
+.navbar {
+  background: #000;
+  color: #ffff;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 0.2rem;
+  align-items: center;
+  visibility: hidden;
+}
+
+.navbar .logo h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.navbar .menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .menu ul li {
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.navbar .nav-btn {
+  padding-left: 19rem;
+}
+
+.nav-btn button {
+  border: 1px solid #ffff;
+  background: #000;
+  padding: 0.5rem;
+}
+
+.nav-btn button a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  cursor: pointer;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-sec .blank {
+  background: #000;
+  width: 10rem;
+  height: 20rem;
+  visibility: hidden;
+}
+
+.first-sec .some-text {
+  background: #000;
+  width: 25rem;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.first-sec .some-text h1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 3rem;
+  color: #ffff;
+  margin-left: 6rem;
+  text-align: right;
+  padding-top: 3rem;
+}
+
+.second-sec {
+  margin-top: 11rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-sec .second-some-text {
+  padding: 1rem;
+  background: #000;
+  display: flex;
+  align-items: flex-end;
+}
+
+.second-some-text p {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 1.2rem;
+  color: #ffff;
+}
+
+.circle-text {
+  background: #ffff;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-text h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
